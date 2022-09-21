@@ -10,6 +10,7 @@ poetry
     poetry new <module name>
     poetry update
     poetry install
+    poetry shell
     poetry add <library>
     poetry build
     poetry publish
@@ -23,6 +24,7 @@ cdk
     cdk synth
     cdk deploy
     cdk diff
+    
 cdk_nag
 ----
 * In Code::
@@ -54,12 +56,11 @@ toadd
 * https://python-semantic-release.readthedocs.io/en/latest/
 * https://pypi.org/project/commitizen/
 * https://github.com/PyCQA/autoflake
-* documentation pre-commit hook
-* test
-* coverage
 * future / concurrency
 * datetime
+* check latest version of dependencies
 * contextlib (for "with" methods)
 * logging
 * cache
 * bolton/cython
+* interrogate
