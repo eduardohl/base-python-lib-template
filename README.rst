@@ -24,7 +24,7 @@ cdk
     cdk synth
     cdk deploy
     cdk diff
-    
+
 cdk_nag
 ----
 * In Code::
@@ -64,3 +64,8 @@ toadd
 * cache
 * bolton/cython
 * interrogate
+* if doing aws: boto3, cdk, testing moto, etc
+* pycharm plugins
+    * awstoolkit
+    * gittoolbox
+* use cdk samples for inspiration
