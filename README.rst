@@ -50,22 +50,29 @@ pre-commit
     pre-commit install
     pre-commit run --all-files
 
-
-toadd
+suggestions
 ----
-* https://python-semantic-release.readthedocs.io/en/latest/
-* https://pypi.org/project/commitizen/
-* https://github.com/PyCQA/autoflake
-* future / concurrency
-* datetime
-* check latest version of dependencies
-* contextlib (for "with" methods)
-* logging
-* cache
-* bolton/cython
-* interrogate
-* if doing aws: boto3, cdk, testing moto, etc
+* libraries
+    * datetime: arrow and pendulum
+    * pydantic: runtime type validation
+    * interrogate: ensure docstrings
+    * commitizen: for commits
+
+* suggested techniques
+    * asyncio stdlib: for concurrency
+    * contextlib: for "with" methods
+    * logging stdlib: for logging
+
+* useful annotations
+    * lru_cache: for memoizing results
+    * datatype: for data objects
+
 * pycharm plugins
     * awstoolkit
     * gittoolbox
-* use cdk samples for inspiration
+
+* for aws
+    * boto3
+    * cdk
+    * cdk-nag
+    * moto
